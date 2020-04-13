@@ -1,0 +1,65 @@
+1-O que é algoritmo e como ele e composto ?
+R. Algoritmo e uma resolução logica e racional de um problema proposto
+E composto por: problematização, intruções unitárias e sequencia logica
+Deve ser: Finito, Correto e efetivo
+
+2-Tendo como exemplo os algoritmos desenvolvidos em sala de aula para solucionar o problema da troca de lâmpadas, elabore um algoritmo que mostre os passos necessários para trocar um pneu furado. Considere o seguinte conjunto de ações:
+a) Trocar o pneu traseiro esquerdo;
+	1-Parar o Carro
+	2-Sair do carro
+	3-Abrir porta mala
+	4-Retirar step, macaco e chave
+	5-afrouxar parafusos 
+	6-subir o carro com o macaco
+	7-retirar roda danificada
+	8-clocar step no lugar
+	9-abaixar o carro com o macaco
+	10-apertar parafusos
+	11-guardar pneu danificado, chave e macaco
+	12-fechar mala
+	13-entrar no carro
+	14-partir com o carro
+
+b) Trocar o pneu traseiro esquerdo e, antes, verificar se o pneu reserva está em condições de uso.
+	1-Parar o Carro
+	2-Sair do carro
+	3-Abrir porta mala
+	4-Retirar step, macaco e chave
+	4B-Se Step estiver em condições
+			5-afrouxar parafusos 
+			6-subir o carro com o macaco
+			7-retirar roda danificada
+			8-clocar step no lugar
+			9-abaixar o carro com o macaco
+			10-apertar parafusos
+			11-guardar pneu danificado, chave e macaco
+			12-fechar mala
+			13-entrar no carro
+			14-partir com o carro
+	14B-Senão
+	15B-	Ligar para o socorro
+	16B-Fim Se	
+
+
+c) Verificar se existe algum pneu furado; se houver, verificar o pneu reserva e, então, trocar o pneu correto.
+Para cada algoritmo faça um refinamento do anterior, introduzindo novas ações e alterando o fluxo de execução de forma compatível com as situações apresentadas.
+	1-Parar o Carro
+	2-Sair do carro
+	3c-Se existir algum pneu furado
+		3-Abrir porta mala
+		4-Retirar step, macaco e chave
+		4B-Se Step estiver em condições
+				5-afrouxar parafusos 
+				6-subir o carro com o macaco
+				7-retirar roda danificada
+				8-clocar step no lugar
+				9-abaixar o carro com o macaco
+				10-apertar parafusos
+				11-guardar pneu danificado, chave e macaco
+				12-fechar mala
+		14B-Senão
+		15B-	Ligar para o socorro
+		16B-Fim Se	
+	17c-Fim Se	
+	18c-entrar no carro
+	19c-partir com o carro

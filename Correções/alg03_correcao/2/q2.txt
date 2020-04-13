@@ -1,0 +1,4 @@
+
+2-Qual a importância de utilizar o tipo primitivo correto em um algoritmo ?
+R- O tipo primitivo permite identificar, se um campo e calculavel ou não alem de armazenar mais ou menos bytes para um dado a ser armazenado.
+
